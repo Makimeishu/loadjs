@@ -2,7 +2,7 @@ function load(options, fn) {
   $(function(){
     var body = $("body");
     var currentController = body.data("controller");
-    var currentAction = body.data("action");
+    var currentAction = body.data("action-load");
 
     if (typeof options === "string") {
       var splitOption = options.split("#");
